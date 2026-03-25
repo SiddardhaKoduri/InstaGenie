@@ -1,42 +1,41 @@
-🧞‍♂️ InstaGenie: The Ultimate AI Content Strategist
-InstaGenie is a high-performance, multimodal AI application designed to transform raw media into viral-ready Instagram content. By combining advanced image/video analysis with a premium user interface, it provides creators with everything they need—from scroll-stopping hooks to the perfect music vibe.
+# 🧞‍♂️ InstaGenie
 
-🌟 Key Features
-Multimodal Intelligence: Seamlessly processes images, videos, and text descriptions to understand context and mood.
+**InstaGenie** is an AI-powered content assistant that helps creators generate high-impact Instagram posts and reels in seconds. By leveraging multimodal AI, it analyzes your media to provide perfectly tailored captions, hashtags, and music suggestions.
 
-Viral Content Suite: Automatically generates 1-line summaries, catchy hooks, engaging captions, and exactly 5 trending hashtags.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Vibe-Matched Audio: Analyzes the scene to suggest specific music tracks that match the energy of your post.
+## ✨ Features
 
-Premium Web Interface: Renders a sleek, responsive HTML output using Tailwind CSS, featuring modern typography and Micro-animations.
+* **Multimodal Analysis**: Accepts images, videos, or simple text descriptions as input.
+* **Smart Hook Generation**: Creates scroll-stopping opening lines to increase engagement.
+* **Creative Captions**: Generates trendy, concise captions tailored to the vibe of your media.
+* **Hashtag Strategy**: Automatically provides exactly 5 relevant and trending hashtags.
+* **Audio Matching**: Suggests the perfect song based on the detected mood (energetic, calm, romantic, etc.).
+* **Interactive UI**: Includes a "Copy Text" feature for seamless posting.
 
-One-Tap Posting: Integrated "Copy Text" buttons for each element to streamline your social media workflow.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🚀 How It Works (The Logic)
-InstaGenie uses a sophisticated node-based architecture:
+## 🚀 How it Works
 
-Input Layer: Collects media assets and user descriptions.
+1.  **Input**: Upload your photo/video or provide a brief description.
+2.  **Analyze**: The AI detects objects, settings, and the overall "vibe" of the content.
+3.  **Output**: You receive a structured package ready for Instagram:
+    * **Description**: A vivid 1-line summary.
+    * **Hook**: An attention-grabbing line.
+    * **Caption**: 1-2 engaging sentences.
+    * **Hashtags**: 5 targeted tags.
+    * **Music**: 1 song recommendation + mood description.
 
-AI Analysis Node: Employs a powerful multimodal LLM agent to analyze keyframes, objects, and actions.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Creative Engine: Packages the analysis into trendy, Instagram-optimized text.
+## 🛠️ Technical Details
 
-Render Node: Builds a self-contained, mobile-friendly dashboard for the user to review and copy content.
+* **Project Name**: InstaGenie (formerly Post Assist)
+* **Version**: 0.0.1
+* **Stack**: JavaScript, Tailwind CSS for UI, and Multimodal LLM integration.
 
-🛠️ Technical Stack
-Logic Engine: Python-based node workflow (InstaGenie.py).
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-AI Integration: Multimodal LLM Agent for visual and textual context.
-
-Frontend: HTML5, Tailwind CSS, and Google Fonts (Inter/Roboto).
-
-Design Language: Professional productivity tool aesthetic with glassmorphism and smooth gradients.
-
-📂 Getting Started
-Clone the Repo:
-
-Bash
-git clone https://github.com/SiddardhaKoduri/InstaGenie.git
-Review the Config: The main application logic and AI prompt parameters are stored in InstaGenie.py.
-
-Version: Currently at v0.0.1.
+## 📂 Project Structure
+- `InstaGenie.js`: Contains the core logic, prompt engineering, and UI rendering instructions.
+- `README.md`: Project documentation and overview.
